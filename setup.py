@@ -3,6 +3,8 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+
+
 setuptools.setup(
     name="SpoofMailer",
     version="0.0.2",
@@ -18,4 +20,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ),
+    install_requires=[
+   'requests'
+],
 )

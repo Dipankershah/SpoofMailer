@@ -41,9 +41,15 @@ sp.set_body("Body of the email")
 ## Final step
 
 ```
-sp.send()
+rq = sp.send()
+
+if ( rq == 200 ):
+    print("Mail sent!")
+else:
+    print("Error :"+rq)
 ```
 Your mail was successfully sent!
+
 
 Don't use this service for illegal purpose. **We are not responsible for your crimes**.
 
