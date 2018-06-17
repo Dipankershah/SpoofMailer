@@ -13,7 +13,7 @@ setuptools.setup(
     description="By ussing SpoofMailer you can send unlimited spoof email or make your own mailing server API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/dipankershah/spoof_mailer_pro",
+    url="https://github.com/Dipankershah/SpoofMailer",
     packages=setuptools.find_packages(),
     classifiers=(
         "Programming Language :: Python :: 3",
