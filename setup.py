@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="SpoofMailer",
-    version="0.0.2",
+    version="1.0.0",
     author="Dipanker shah",
     author_email="Dipankarshah143@gmail.com",
     description="By ussing SpoofMailer you can send unlimited spoof email or make your own mailing server API",
